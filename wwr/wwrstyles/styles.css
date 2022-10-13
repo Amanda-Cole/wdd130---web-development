@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&family=Rock+Salt&display=swap');
+
+
+/*font-family: 'Figtree', sans-serif;
+font-family: 'Rock Salt', cursive;*/
 
 
 #content{
@@ -8,6 +13,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     color:#f4a261 ;
+    padding: 35px;
 }
 nav a:hover{
     background-color: wheat;
@@ -17,9 +23,18 @@ nav a:hover{
     display: block;
     width: 100%;
 }
-#hero-msg h1, #hero-msg h4{
+/*Have an adventure also known as home-title*/ 
+#hero-msg h1{
     color: #db522c;
     text-align: center;
+    font-family: 'Rock Salt', papyrus, copperplate;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#hero-msg h4{
+    color: #db522c;
+    text-align: center;
+    font-family: 'Figtree', sans-serif, cursive;
 }
 .button-box{
     text-align: center;
@@ -27,22 +42,52 @@ nav a:hover{
 main{
     text-align: center;
     display: block;
+    font-family: 'Rock Salt', papyrus, copperplate;
+}
+main section img{
+    box-sizing: border-box;
+}
+.card-img{
+    border: 10px solid #e7c8ae;
+}
+.rivers-card{
+    margin: 200px;
+    
+}
+.camping-card{
+    margin:200px;
+}
+.rapids-card{
+    margin: 200px;
 }
 .container{
     height: 725px;
     background-color:#df9c2f; 
     border: 20px blue;
+    margin-bottom: 100px;
+}
+.mountains{
+    margin-top: 20px;
+    margin-bottom: 150px;
 }
 body{
     background-color: #81b29a;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
-header,footer{
+header{
     background-color: rgb(56, 75, 56);
 }
 .book, .join{
     background-color:wheat ;
     color: #db522c ;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
 }
 .book:hover, .join:hover{
     color: white;
@@ -50,15 +95,27 @@ header,footer{
 }
 .msg{
     background-color:#df9c2f;
-}
-.home-title{
-    color: #db522c;
+    line-height: 1.5em;
+    padding: 35px;
+    text-align: center;
 }
 .msg h2{
     color: wheat;
+    font-family: 'Rock Salt', papyrus, copperplate;
+    margin: 0;
+   
 }
 .msg p{
     color: black;
+    font-family: 'Figtree', sans-serif, cursive;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer {
+    padding: 25px 50px;
+    background-color: rgb(56, 75, 56);
+    margin-top: 200px;
+
 }
 footer h3{
     color:wheat;
@@ -66,19 +123,27 @@ footer h3{
 footer a{
     color: #df9c2f;
     text-decoration: none;
+    font-size: 1.2em;
 }
 footer a:hover{
     color:#db522c;
+    text-decoration: underline;
 }
+footer img{
+    padding-top: 15px;
+
+}
+
+
+
+
 .icon{
     width:80px;
+    padding-top: 10px;
+
 }
 #logo img {
     width: 80px;
+    padding: 5px;
 }
-footer p{
-    font-size: 1.2em;
-}
-footer p a:hover{
-    text-decoration: underline;
-}
+   
