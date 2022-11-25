@@ -142,7 +142,7 @@ don't want the 3D effect */
 .mytabs label {
     padding: 25px;
     background: #4d685a;
-    color: #df9c2f;
+    color: #e7c8ae;
     font-weight: bold;
     font-size: 15px;
     font-family: 'Figtree', sans-serif, cursive;
@@ -170,7 +170,7 @@ don't want the 3D effect */
 }
 footer{
   padding: 25px 50px;
-  color: #df9c2f;
+  color: #db522c;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-size: larger;
