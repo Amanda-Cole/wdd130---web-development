@@ -53,8 +53,16 @@ nav a:hover{
 #contact_info{
   padding-left: 60px;
 }
+
+h5{
+  color: #e7c8ae;
+  font-size: 300%;
+  text-align: center;
+  margin: auto;
+  padding-left: 160px;
+}
 #home_img, #buying_home, #selling_home{
-  padding-top: 100px;
+  padding-top: 10px;
   width: 650px;
   padding-left: 150px;
 }
