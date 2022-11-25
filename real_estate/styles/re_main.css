@@ -1,10 +1,81 @@
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@300&display=swap");
+
+#content{
+  width: 1550px;
+  margin: 0 auto;
+  display: block;
+  background-color: #222e50;
+ 
+}
+header{
+  background-color: #222e50;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+#logo_link img{
+  width: 125px;
+  height: 125px;  
+  padding-left: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a{
+  text-align: center;
+  text-decoration: none;
+  color:#e7c8ae ;
+  padding: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+}
+nav a:hover{
+    color: #db522c;
+    
+}
+
+#main_block{
+  display: flex;
+}
+#personal_info{
+  
+  padding-left: 350px;  
+  color: #e7c8ae;
+  padding-right: 40px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: larger;
+ }
+#profile_pic{
+  width: 241px;
+  height: 350px;
+  padding-left: 45px;
+}
+#contact_info{
+  padding-left: 60px;
+}
+#home_img{
+  padding-top: 100px;
+  width: 650px;
+  padding-left: 150px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border 
+property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you 
+don't want the 3D effect */
+#cards{
+  padding: 10px;
+  flex-grow: 1;
+  display: flex;  
+  position: relative;
+}
+#cards > *{
+  margin: auto;
+}
+
 .flip-card {
     background-color: transparent;
     width: 300px;
     height: 300px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
   /* This container is needed to position the front and back side */
@@ -29,20 +100,24 @@
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+
   }
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: #bbb;
     color: black;
+
   }
-  
-  /* Style the back side */
+    /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background-color:#4d685a ;
     color: white;
     transform: rotateY(180deg);
+    font-family: 'Roboto', sans-serif;
+    z-index: 1;
   }
+
 /*style for tabs on page 2 and 3*/
   .mytabs{
     display: flex;
@@ -82,4 +157,26 @@
 }
 .mytabs input[type = "radio"]:checked + label{
     background-color:#e7c8ae;
-    color: #db522c}
+    color: #db522c
+}
+
+
+
+footer{
+  padding: 25px 50px;
+  color: #df9c2f;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: larger;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+footer a{color:#db522c}
+
+footer a:hover{
+  color: #e7c8ae;
+}
+
+
