@@ -9,11 +9,11 @@
     <style>
         form {
             margin: 0 auto;
-            width: 400px;
-            height: 300px;
+            width: 600px;
+            
             padding: 1em;
-            border: 1px solid #ccc;
             border-radius: 1em;
+            padding-top: 50px;
         }
         ul{
             list-style: none;
@@ -27,11 +27,12 @@
             display: inline-block;
             width: 90px;
             text-align: right;
+            color: antiquewhite;
         }
         input,
         textarea {
             font: 1em sans-serif;
-            width: 300px;
+            width: 600px;
             box-sizing: border-box;
         }
         input:focus,
@@ -66,7 +67,7 @@
     <div id = "content">
         <header>
             <a id = "logo_link" href="real_estate/index.html">
-                <img class = "logo" src = "styles/re_images/logo1.png" alt = "ALC Logo">
+                <img class = "logo" src = "styles/re_images/logo_larger_zoomed.png" alt = "ALC Logo">
             </a>
             <nav>
                 <a href = "index.html">Home</a>
@@ -75,25 +76,19 @@
                 <a href = "contact.html">Contact</a>
             </nav>
         </header>
-        <div id = "personal_info">
-            <img id = "profile_pic" src="styles/re_images/sized_and_optimized/rsz_mom_headshot.png" alt="Headshot">
-            <section id = "profile_msg">
-                <h4>Meet Amanda Cole</h4>
-                <p>  I have been a Realtor for 9 years.  
-                I am the mom of 4 children and someone who loves to take chances.  
-                Change is exciting to me and I love to think outside the box. 
-                I have called Utah my home for 24 years and I know Salt Lake County very well. 
-                I am experienced in buying, selling, and Investments.  
-                I also have a property management company that handles 35 rental properties. 
-                I know how to get a deal when buying, how to save you money when selling, 
-                and how to make your money multiply by investing. Contact me today and lets get started!</p>
-            </section>
-            <section id="contact_info">
-                <h4>Contact Amanda</h4>
-                <p>Cell: 801-856-6974<br>amandacoletrunet@yahoo.com</p>
-            </section>
-        </div>      
+        <div id = "main_block">
+            <div id = "home_pic">
+                <img id = "buying_home" src="styles/re_images/sized_and_optimized/rsz_Main__house-isolated-field_1303-23773_1.png" alt="Listing Picture">
+            </div>
 
+            <div id = "personal_info">
+                <img id = "profile_pic" src="styles/re_images/sized_and_optimized/Headshot_smaller.jpg" alt="Headshot">
+                <section id="contact_info">
+                    <h4>Contact Amanda</h4>
+                    <p>Cell: 801-856-6974<br>amandacoletrunet@yahoo.com</p>
+                </section>
+            </div>      
+        </div>
         <main>
             <div id = "feedback"></div>
             <!--links document to contain forms-->
