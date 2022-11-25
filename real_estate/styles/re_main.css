@@ -160,9 +160,6 @@ don't want the 3D effect */
     background-color:#e7c8ae;
     color: #db522c
 }
-
-
-
 footer{
   padding: 25px 50px;
   color: #df9c2f;
@@ -170,8 +167,7 @@ footer{
   grid-template-columns: 1fr 1fr 1fr;
   font-size: larger;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  
+  font-family: 'Roboto', sans-serif; 
 }
 
 footer a{color:#db522c}
